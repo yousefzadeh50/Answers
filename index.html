@@ -5,89 +5,118 @@
 <title>پاسخنامه تشریحی زبان انگلیسی هفتم</title>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap');
+
 body{
-    font-family: Tahoma, Arial;
+    font-family: 'Vazirmatn', Tahoma;
     direction: rtl;
-    background: linear-gradient(135deg,#dbeafe,#f0f9ff);
-    padding: 30px;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    padding: 40px;
+    color: #1f2937;
 }
 
 .container{
-    background: #ffffff;
-    max-width: 1000px;
+    background: rgba(255,255,255,0.95);
+    max-width: 1100px;
     margin: auto;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.35);
     position: relative;
 }
 
+/* designer box */
 .designer-box{
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 280px;
+    top: 25px;
+    left: 25px;
+    width: 300px;
     background: linear-gradient(135deg,#667eea,#764ba2);
-    color: white;
-    padding: 15px;
-    border-radius: 12px;
+    color: #fff;
+    padding: 18px;
+    border-radius: 18px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.4);
     font-size: 14px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
-
 .designer-box span{
     color: #ffeb3b;
-    font-weight: bold;
+    font-weight: 800;
 }
 
+/* titles */
 h1{
     text-align: center;
-    color: #1e3a8a;
-    margin-bottom: 40px;
+    color: #0f172a;
+    margin-bottom: 50px;
+    font-size: 32px;
 }
 
 h2{
-    color: #0369a1;
-    border-right: 6px solid #0284c7;
-    padding-right: 10px;
-    margin-top: 35px;
+    margin-top: 45px;
+    color: #1d4ed8;
+    border-right: 7px solid #2563eb;
+    padding-right: 15px;
+    font-size: 24px;
 }
 
-.question{
-    background: #f8fafc;
-    padding: 15px;
-    border-radius: 10px;
-    margin-top: 10px;
+/* cards */
+.card{
+    background: rgba(248,250,252,0.9);
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
 }
 
 .answer{
-    background: #ecfdf5;
-    border-right: 5px solid #22c55e;
-    padding: 12px;
-    margin-top: 10px;
-    border-radius: 8px;
-    font-weight: bold;
+    background: linear-gradient(135deg,#ecfeff,#f0fdf4);
+    border-right: 6px solid #22c55e;
+    padding: 15px;
+    margin-top: 12px;
+    border-radius: 14px;
+    font-weight: 600;
 }
 
+/* english */
 .english{
     direction: ltr;
-    font-weight: bold;
+    font-weight: 700;
+    color: #111827;
 }
 
+/* table */
 table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
 }
-
-table th, table td{
+th,td{
     border: 1px solid #94a3b8;
-    padding: 10px;
+    padding: 12px;
     text-align: center;
 }
-
-table th{
+th{
     background: #e0f2fe;
+    font-weight: 800;
+}
+
+/* footer */
+.footer{
+    margin-top: 60px;
+    padding: 25px;
+    border-radius: 20px;
+    background: linear-gradient(135deg,#1e3a8a,#312e81);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+.footer span{
+    color: #fde047;
+    font-weight: 800;
 }
 </style>
 </head>
@@ -96,7 +125,7 @@ table th{
 
 <div class="container">
 
-<!-- مشخصات طراح -->
+<!-- designer -->
 <div class="designer-box">
     طراح محتوای آموزشی:<br>
     <span>یوسف زاده</span><br>
@@ -107,68 +136,94 @@ table th{
 
 <h1>پاسخنامه تشریحی<br>نمونه سؤال زبان انگلیسی پایه هفتم – نوبت اول</h1>
 
-<!-- سوال 1 -->
-<h2>سؤال ۱</h2>
-<div class="question">
-    بچه‌های عزیز، این آقا می‌خواهد رمز زیر را به صورت صحیح وارد کند اما اشتباه وارد می‌کند.  
-    لطفاً به او کمک کنید تا رمز را درست وارد کند.  
-    <br><br>
-    رمز اشتباه:  
-    <div class="english">T A G M</div>
+<!-- Q1 -->
+<h2>سؤال ۱: رمز عبور</h2>
+<div class="card">
+    بچه‌های عزیز، این آقا می‌خواهد رمز زیر را وارد کند اما اشتباه وارد می‌کند.  
+    لطفاً به او کمک کنید تا رمز صحیح را وارد کند.
+    <div class="english">T A G M + 5 + 3</div>
 </div>
-
 <div class="answer">
-    پاسخ صحیح رمز:  
+    پاسخ صحیح:<br>
     <div class="english">mg5a3t</div>
 </div>
 
-<!-- سوال 2 -->
-<h2>سؤال ۲</h2>
-<div class="question">
-    بچه‌های عزیز، شغل این آقا دندانپزشکی است، اما من کلمه Dentist را فراموش کرده‌ام.  
-    لطفاً با وارد کردن حروف درست، کلمه را کامل کنید.
-    <br><br>
-    اسم‌های داده شده:
-    <div class="english">
-        Artin – Mina – Kasra – Monir – Matin – Reza
-    </div>
+<!-- Q2 -->
+<h2>سؤال ۲: حروف و واژگان</h2>
+<div class="card">
+    شغل این آقا دندانپزشکی است اما کلمه Dentist فراموش شده است.  
+    همچنین اسم‌های داده شده عبارت‌اند از:
+    <div class="english">Artin – Mina – Kasra – Monir – Matin – Reza</div>
 </div>
 
 <div class="answer">
-    <table>
-        <tr>
-            <th>شماره</th>
-            <th>نام انتخاب‌شده (پاسخ)</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td class="english">Artin</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td class="english">Mina</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td class="english">Kasra</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td class="english">Monir</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td class="english">Matin</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td class="english">Reza</td>
-        </tr>
-    </table>
+<table>
+<tr><th>شماره</th><th>نام صحیح</th></tr>
+<tr><td>1</td><td class="english">Artin</td></tr>
+<tr><td>2</td><td class="english">Mina</td></tr>
+<tr><td>3</td><td class="english">Kasra</td></tr>
+<tr><td>4</td><td class="english">Monir</td></tr>
+<tr><td>5</td><td class="english">Matin</td></tr>
+<tr><td>6</td><td class="english">Reza</td></tr>
+</table>
+<br>
+کلمه شغل دندانپزشک:
+<div class="english">Dentist</div>
+</div>
 
-    <br>
-    🔑 کلمه رمز شغل دندانپزشک به انگلیسی:
-    <div class="english">Dentist</div>
+<!-- Q3 -->
+<h2>سؤال ۳: نسبت‌های فامیلی</h2>
+<div class="card">
+1) She is my aunt.<br>
+2) This man is my uncle.
+</div>
+<div class="answer english">
+1) Elham<br>
+2) Mr. Ahmadi
+</div>
+
+<!-- Q4 -->
+<h2>سؤال ۴: تکمیل فرم</h2>
+<div class="answer english">
+First name: Hamed<br>
+Last name: Taherinam<br>
+Age: 31<br>
+Job: Flower seller<br>
+Month of birth: Aban<br>
+Phone number: 859607
+</div>
+
+<!-- Q5 -->
+<h2>سؤال ۵: ریاضی و انگلیسی</h2>
+<div class="answer english">
+twenty − twelve = eight<br>
+thirteen + seventeen = thirty
+</div>
+
+<!-- Q6 -->
+<h2>سؤال ۶: مکالمه</h2>
+<div class="answer english">
+Hi, my friend.<br>
+I'm fine. Thank you.<br><br>
+No, he's my uncle.<br>
+He's an employee.
+</div>
+
+<!-- Q7 -->
+<h2>سؤال ۷: درک مطلب</h2>
+<div class="answer english">
+1) Moradi<br>
+2) Twenty-six<br>
+3) Hossein<br>
+4) On the 15th of Farvardin
+</div>
+
+<!-- footer -->
+<div class="footer">
+    طراح محتوای آموزشی:
+    <span>یوسف زاده</span>
+    | دبیر زبان انگلیسی شهرستان خواف<br>
+    Telegram ID: <span>@Yousefzadeh50</span>
 </div>
 
 </div>
